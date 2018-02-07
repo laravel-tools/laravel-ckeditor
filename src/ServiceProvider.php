@@ -12,7 +12,7 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Intervention\Image\ImageManager;
 use LaravelTools\LaravelCkEditor\Http\Middleware\VerifyCsrfToken;
 use LaravelTools\LaravelCkEditor\Uploads\ImageUploader;
-use JeroenNoten\LaravelPackageHelper\ServiceProviderTraits;
+use LaravelTools\LaravelPackageHelper\ServiceProviderTraits;
 
 class ServiceProvider extends BaseServiceProvider
 {

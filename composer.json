@@ -25,6 +25,13 @@
         "league/flysystem": "^1.0.8",
         "intervention/image": "^2.3"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelTools\\LaravelCkEditor\\ServiceProvider"
+            ]
+        }
+    },
     "require-dev": {
         "phpunit/phpunit": "~4.8.20|~5.0",
         "orchestra/testbench": "~3.2.4|~3.3.0|~3.4.0",
